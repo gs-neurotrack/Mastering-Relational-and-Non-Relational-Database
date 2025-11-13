@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C941FDE-AC4D-D1B1-D8D9-68BBE9BF2DD2" name="GS_DAILY_LOGS">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:26:37 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LOG" id="D5CD7329-2BE4-DAFF-F722-3CEA475800E3">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:26:49 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WORK_HOURS" id="C39B77B0-8663-3524-5AB7-BC09CF349860">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:27:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEETINGS" id="F42FA0F4-DE93-6369-D62B-E27D2F4F51BC">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:27:59 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOG_DATE" id="82FABE31-490B-2C1F-016F-B04E071867DA">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:30:45 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="13D39829-16E9-1057-A7BD-7731757E1FC3">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:32:11 UTC</createdTime>
+<generatorID>DE8A1C47-C044-87AF-C631-9400E00CEDFC</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<referedAttribute>9E02F100-0AA3-252F-46EA-0702B2DBCC0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01C5EAF3-D10D-5C61-98E3-30377AB63F0B" name="DAILY_LOGS PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:27:01 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5CD7329-2BE4-DAFF-F722-3CEA475800E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

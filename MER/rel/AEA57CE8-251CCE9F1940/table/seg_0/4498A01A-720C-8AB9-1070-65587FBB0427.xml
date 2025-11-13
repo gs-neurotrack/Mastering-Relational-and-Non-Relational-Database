@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4498A01A-720C-8AB9-1070-65587FBB0427" name="GS_ROLE">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>AE96F0D5-F3AA-F66E-4F75-AB7669FE9F10</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ROLE" id="C12AEEB1-DE5D-2F92-4F76-B42EA4BBF46D">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>FF556E2B-62CE-3083-498E-BB7D773B83F4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE_NAME" id="DA13B465-4C36-464E-FA65-A81364806312">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>C9513109-B307-ED3A-7F29-76B51805DD56</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E18C0D57-4133-CF52-6986-CA495550F3CB" name="GS_ROLE_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>96801DE6-9395-6A1F-3B0D-6FCFCA432D84</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C12AEEB1-DE5D-2F92-4F76-B42EA4BBF46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB1AA24-2756-10D4-F5FA-62433BA867C2" name="GS_ROLE_ROLE_NAME_UN">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>661365FF-2595-34F5-3277-3E19A69B5B0E</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA13B465-4C36-464E-FA65-A81364806312"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FA99F5E-0FA1-E36A-E832-C5A863552797" containerWithKeyObject="D980D325-B853-883D-ECE8-A9CFF643C99D" localFKIndex="35E33CC9-DB67-4E3C-6397-C55F8AD84626" name="GS_PREDICTIONS_GS_STATUS_RISK_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:58 UTC</createdTime>
+<generatorID>85A52E23-0FF1-0AC2-1CC3-5D8B81643607</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<referredTableLongName>GS_STATUS_RISK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31E61387-2DAF-7321-5CD4-5D32B6F72BD2</referredTableID>
+<keyObject>260A3215-E440-9158-ADC5-E731C7AB783F</keyObject>
+<referredKeyID>260A3215-E440-9158-ADC5-E731C7AB783F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_STATUS_RISK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

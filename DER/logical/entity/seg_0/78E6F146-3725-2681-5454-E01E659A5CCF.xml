@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78E6F146-3725-2681-5454-E01E659A5CCF" name="GS_PREDICTIONS">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:29:28 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PREDICTION" id="9AB62654-201F-670D-2759-7E122EA1398D">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:29:41 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STRESS_PREDICTED" id="87546FF9-C506-238A-A962-5824BCF9490B">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:30:13 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MESSAGE" id="02A512AF-AEEA-136B-2C3B-5A446C31EDEB">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:31:08 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_PREDICTED" id="2C134A05-E097-7441-F81F-6F53C736DA55">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:30:02 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="2B51A747-BACF-0AAD-0291-09C2E57AD037">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:33:38 UTC</createdTime>
+<generatorID>948F4971-8F4F-F153-5647-1E56F1A55D4E</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<referedAttribute>9E02F100-0AA3-252F-46EA-0702B2DBCC0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SCORES" id="6F3C7836-9F8F-06DF-5C09-CCAD537A0E29">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:52:24 UTC</createdTime>
+<generatorID>E31BB527-8F90-DFF2-AD51-CEB2D085D96C</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<referedAttribute>A42B6DC1-7B99-7C6C-7A61-81D45DF3F02C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_STATUS_RISK" id="03279718-7627-2336-CE83-FF05B38A6DC1">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:54:52 UTC</createdTime>
+<generatorID>85A52E23-0FF1-0AC2-1CC3-5D8B81643607</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<referedAttribute>0C1E4019-32AF-6DB5-8B66-2B350C0DB986</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15869C22-12F4-79C8-0AD2-04F664D8AED5" name="PREDICTIONS PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 16:30:00 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AB62654-201F-670D-2759-7E122EA1398D</attributeRef>
+<attributeRef>03279718-7627-2336-CE83-FF05B38A6DC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

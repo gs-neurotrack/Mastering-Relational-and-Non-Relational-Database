@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3945030A-38FF-431B-3E5E-0B14DA7E5316" name="GS_USER">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:21:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USER" id="9E02F100-0AA3-252F-46EA-0702B2DBCC0E">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:21:37 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME_USER" id="369D5B1A-7D55-4891-5BE1-89168CE3A9E3">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:22:00 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_USER" id="7EB7AB7E-700A-A5E2-7A1A-F9530ED4C5E0">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:22:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD_USER" id="8EF84D4B-4AE1-29E3-6792-ABDD010C87DA">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:22:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="4B353D25-6DC9-F266-5BF5-B74AEADAAFC4">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:23:15 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ROLE" id="34801BBA-40F3-CDE5-674F-A9BADBDF597C">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:25:46 UTC</createdTime>
+<generatorID>B3BBD875-E3A6-EE43-C29D-23BD06433B8B</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<referedAttribute>FF556E2B-62CE-3083-498E-BB7D773B83F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LIMITS" id="D02183B4-1F12-2EB4-A785-7FFF719DEC48">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 17:27:18 UTC</createdTime>
+<generatorID>EAA92324-7F90-E9F8-BD89-A56F1FFFB2F2</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<referedAttribute>28DB3BC5-ADBE-D7C5-ABAF-3BA20FE0BF68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65A6B873-FC7C-3043-BCBC-2BDE9BBB15D7" name="User PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:21:49 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E02F100-0AA3-252F-46EA-0702B2DBCC0E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2459AFDD-CC5D-6A61-DB9F-6887C938DA98" name="Key_2">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-12 02:28:40 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
+</engineerTo>
+<newElementsIDs>7EB7AB7E-700A-A5E2-7A1A-F9530ED4C5E0</newElementsIDs>
+<usedAttributes>
+<attributeRef>7EB7AB7E-700A-A5E2-7A1A-F9530ED4C5E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

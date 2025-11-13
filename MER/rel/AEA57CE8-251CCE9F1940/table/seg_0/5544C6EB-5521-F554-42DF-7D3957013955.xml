@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5544C6EB-5521-F554-42DF-7D3957013955" name="GS_LIMITS">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>0BF16BDE-F7F2-16E8-D35F-C9D0F633DAD4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LIMITS" id="4A4A31F0-E167-DF12-64BB-0DFE5CE0D9FA">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>28DB3BC5-ADBE-D7C5-ABAF-3BA20FE0BF68</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMIT_HOURS" id="6182433D-ACFC-77B0-9D65-4B41526F257A">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>2EBE832A-D8A3-F14B-3A59-E43E688130F8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMIT_MEETINGS" id="D308F8AA-F813-7103-15E8-DB380B85F7A0">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>7799D61A-A193-C5C0-B3D2-9BB0CE45D576</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="AB5864AD-F482-0271-A0FF-4FD382CF6977">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>1C1E5CBA-DDD7-BDB7-4EDA-BF07866768A2</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDCA8303-8786-3DB4-CB1E-1D5E4B270C97" name="GS_LIMITS_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>78C58D03-5D48-FC4E-81FB-189FF52D6F7B</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A4A31F0-E167-DF12-64BB-0DFE5CE0D9FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

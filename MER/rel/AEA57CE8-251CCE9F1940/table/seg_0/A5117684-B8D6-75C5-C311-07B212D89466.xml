@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5117684-B8D6-75C5-C311-07B212D89466" name="GS_SCORES">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>7FB26758-4379-4BA0-4038-B661AD06828A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SCORES" id="9B1662AD-42DB-A1C4-19CD-BCAF140AA7EA">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>A42B6DC1-7B99-7C6C-7A61-81D45DF3F02C</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_SCORE" id="E3FDFD66-32CC-C88D-2F32-D9DABA07C356">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>063F3BCB-1FEE-DEC8-EEE7-61F62B79A4D4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCORE_VALUE" id="7A075B99-456C-F33B-B0AD-F924EFDF0BC5">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>A0BF759E-687A-35C6-2E81-782780C14E5E</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_RECOMMENDATION" id="5C250070-FB54-FEAD-9226-BAF9F219E1FC">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>CB9EEABF-7CA8-DF71-AC0F-5B3EB61A28F4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="0BEA16DE-F542-6888-9CAA-6C18D5A4D028">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>1610DB98-2117-47C4-275F-CCB03E12329F</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GS_STATUS_RISK_ID_STATUS_RISK" id="476D2EA5-CD60-1C41-1002-965D979D36D9">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>A1E6A22F-99E8-CC19-332B-B8113E449972</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A591C79-8F13-6F2D-B72C-91D5EE38DF81" referredColumn="92772794-D4C8-2FCA-E7AA-8BB53FC4F877"/>
+</associations>
+</Column>
+<Column name="GS_USER_ID_USER" id="8D86C812-DEA8-C4E9-E7EF-5FB8BCE00F42">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>F7844296-033C-4D65-D3D5-23425E6172DA</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6CCFA5B-FFFC-BA27-A019-E27124170829" referredColumn="5859CB93-D6BB-052C-D308-83B6819FD812"/>
+</associations>
+</Column>
+<Column name="GS_DAILY_LOGS_ID_LOG" id="5C8CE1EE-738B-51F6-1A22-852BAF10E51F">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>B0CFFB4E-8391-B7D5-E190-62A54123EA82</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F8E3703-B485-EBE7-0BAE-EF14D57BA961" referredColumn="60A2EFEC-7021-074A-896D-3ABE0499960C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67833D32-C664-60E5-D150-D052A2525924" name="GS_SCORES_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>45CF6B57-E450-2433-3281-4F311EEB0462</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B1662AD-42DB-A1C4-19CD-BCAF140AA7EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7EBA400-1419-2DC0-ACEB-34AA084E178B" name="GS_SCORES__IDX">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>129C720C-E326-C73F-087F-249B1F0BDC90</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5C8CE1EE-738B-51F6-1A22-852BAF10E51F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4A014EC-3561-2117-1C18-D0834C939FCD" name="GS_SCORES_GS_USER_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>4E155BA9-8DA8-5204-23C8-A58C60F08C1C</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D86C812-DEA8-C4E9-E7EF-5FB8BCE00F42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34F6ECF6-0381-4B21-6A8C-A9AADDB3E020" name="GS_SCORES_GS_DAILY_LOGS_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:57 UTC</createdTime>
+<generatorID>129C720C-E326-C73F-087F-249B1F0BDC90</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8CE1EE-738B-51F6-1A22-852BAF10E51F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D42E60B6-4531-B2B1-2090-74E34EAB54A0" name="GS_SCORES_GS_STATUS_RISK_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:58 UTC</createdTime>
+<generatorID>A9CFF439-F492-D668-F680-E1ADE0338EB2</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="476D2EA5-CD60-1C41-1002-965D979D36D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

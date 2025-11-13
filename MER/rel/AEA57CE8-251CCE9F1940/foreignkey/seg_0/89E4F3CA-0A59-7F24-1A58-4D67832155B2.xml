@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89E4F3CA-0A59-7F24-1A58-4D67832155B2" containerWithKeyObject="D980D325-B853-883D-ECE8-A9CFF643C99D" localFKIndex="41B20B4B-5533-EA2C-7A87-5550E43F3206" name="GS_PREDICTIONS_GS_SCORES_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-13 01:07:58 UTC</createdTime>
+<generatorID>E31BB527-8F90-DFF2-AD51-CEB2D085D96C</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<referredTableLongName>GS_SCORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5117684-B8D6-75C5-C311-07B212D89466</referredTableID>
+<keyObject>67833D32-C664-60E5-D150-D052A2525924</keyObject>
+<referredKeyID>67833D32-C664-60E5-D150-D052A2525924</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SCORES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
