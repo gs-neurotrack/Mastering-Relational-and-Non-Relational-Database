@@ -89,6 +89,18 @@ END insert_limits;
 ---------------------------------------------------
 -- INSERT ROLE
 ---------------------------------------------------
+EXEC gs_insert_role('ADMIN');
+EXEC gs_insert_role('USER');
+EXEC gs_insert_role('GESTOR');
+EXEC gs_insert_role('ANALISTA');
+EXEC gs_insert_role('DESENVOLVEDOR');
+EXEC gs_insert_role('SUPORTE');
+EXEC gs_insert_role('COORDENADOR');
+EXEC gs_insert_role('ESTAGIARIO');
+EXEC gs_insert_role('DIRETOR');
+EXEC gs_insert_role('CEO');
+
+SELECT * FROM GS_ROLE;
 
 ---------------------------------------------------
 -- PROCEDURE INSERT LIMITS
@@ -109,6 +121,18 @@ END gs_insert_limits;
 ---------------------------------------------------
 -- INSERT LIMITS
 ---------------------------------------------------
+EXEC gs_insert_limits(8, 3);  -- 8 horas, 3 reuniões
+EXEC gs_insert_limits(6, 2);  
+EXEC gs_insert_limits(9, 4);  
+EXEC gs_insert_limits(7, 3); 
+EXEC gs_insert_limits(6, 3);  
+EXEC gs_insert_limits(8, 5);  
+EXEC gs_insert_limits(10, 2); 
+EXEC gs_insert_limits(5, 1);  
+EXEC gs_insert_limits(8, 2); 
+EXEC gs_insert_limits(7, 4);  
+
+SELECT * FROM GS_LIMITS;
 
 ---------------------------------------------------
 -- PROCEDURE INSERT STATUS RISK
@@ -126,6 +150,19 @@ END gs_insert_status_risk;
 ---------------------------------------------------
 -- INSERT STATUS RISK
 ---------------------------------------------------
+EXEC gs_insert_status_risk('SAUDÁVEL');
+EXEC gs_insert_status_risk('MODERADO');
+EXEC gs_insert_status_risk('ALTO');
+EXEC gs_insert_status_risk('CRÍTICO');
+EXEC gs_insert_status_risk('BAIXO');
+EXEC gs_insert_status_risk('EM ALERTA');
+EXEC gs_insert_status_risk('URGENTE');
+EXEC gs_insert_status_risk('NORMAL');
+EXEC gs_insert_status_risk('ESTÁVEL');
+EXEC gs_insert_status_risk('GRAVE');
+
+SELECT * FROM GS_STATUS_RISK;
+
 
 ---------------------------------------------------
 -- PROCEDURE INSERT USERS
@@ -161,6 +198,20 @@ END gs_insert_user;
 -- INSERT USERS
 ---------------------------------------------------
 
+EXEC gs_insert_user('Pedro Santos', 'pedro@empresa.com', 'senha123', 'A', 1, 1);
+EXEC gs_insert_user('Maria Souza', 'maria@empresa.com', 'senha456', 'A', 2, 2);
+EXEC gs_insert_user('João Silva', 'joao@empresa.com', 'senha789', 'A', 1, 3);
+EXEC gs_insert_user('Ana Costa', 'ana@empresa.com', 'senha101', 'A', 2, 4);
+EXEC gs_insert_user('Carlos Lima', 'carlos@empresa.com', 'senha112', 'A', 1, 5);
+EXEC gs_insert_user('Juliana Oliveira', 'juliana@empresa.com', 'senha314', 'A', 3, 1);
+EXEC gs_insert_user('Ricardo Almeida', 'ricardo@empresa.com', 'senha415', 'A', 4, 2);
+EXEC gs_insert_user('Fernanda Costa', 'fernanda@empresa.com', 'senha516', 'A', 1, 3);
+EXEC gs_insert_user('Lucas Pereira', 'lucas@empresa.com', 'senha617', 'A', 5, 4);
+EXEC gs_insert_user('Beatriz Martins', 'beatriz@empresa.com', 'senha718', 'A', 2, 5);
+
+SELECT * FROM GS_USERS;
+
+
 ---------------------------------------------------
 -- PROCEDURE INSERT BEHAVIOR DATA
 ---------------------------------------------------
@@ -190,6 +241,20 @@ END gs_insert_behavior_data;
 -- INSERT BEHAVIOR DATA
 ---------------------------------------------------
 
+EXEC gs_insert_behavior_data(280, 45, 0.5, 800, 0.25, SYSDATE, SYSDATE, 1);
+EXEC gs_insert_behavior_data(300, 50, 0.6, 900, 0.3, SYSDATE, SYSDATE, 2);
+EXEC gs_insert_behavior_data(310, 55, 0.65, 850, 0.28, SYSDATE, SYSDATE, 3);
+EXEC gs_insert_behavior_data(320, 60, 0.7, 920, 0.35, SYSDATE, SYSDATE, 4);
+EXEC gs_insert_behavior_data(330, 65, 0.75, 950, 0.4, SYSDATE, SYSDATE, 5);
+EXEC gs_insert_behavior_data(340, 70, 0.8, 980, 0.45, SYSDATE, SYSDATE, 6);
+EXEC gs_insert_behavior_data(350, 75, 0.85, 1000, 0.5, SYSDATE, SYSDATE, 7);
+EXEC gs_insert_behavior_data(360, 80, 0.9, 1020, 0.55, SYSDATE, SYSDATE, 8);
+EXEC gs_insert_behavior_data(370, 85, 0.95, 1040, 0.6, SYSDATE, SYSDATE, 9);
+EXEC gs_insert_behavior_data(380, 90, 1.0, 1060, 0.65, SYSDATE, SYSDATE, 10);
+
+SELECT * FROM GS_BEHAVIOR_DATA;
+
+
 ---------------------------------------------------
 -- PROCEDURE DAILY LOG
 ---------------------------------------------------
@@ -211,6 +276,19 @@ END gs_insert_daily_log;
 ---------------------------------------------------
 -- INSERT DAILY LOG
 ---------------------------------------------------
+
+EXEC gs_insert_daily_log(8, 4, SYSDATE, 1);
+EXEC gs_insert_daily_log(6, 3, SYSDATE, 2);
+EXEC gs_insert_daily_log(9, 5, SYSDATE, 3);
+EXEC gs_insert_daily_log(7, 4, SYSDATE, 4);
+EXEC gs_insert_daily_log(6, 2, SYSDATE, 5);
+EXEC gs_insert_daily_log(8, 3, SYSDATE, 6);
+EXEC gs_insert_daily_log(10, 4, SYSDATE, 7);
+EXEC gs_insert_daily_log(5, 2, SYSDATE, 8);
+EXEC gs_insert_daily_log(7, 3, SYSDATE, 9);
+EXEC gs_insert_daily_log(6, 4, SYSDATE, 10);
+
+SELECT * FROM GS_DAILY_LOGS;
 
 
 ---------------------------------------------------
@@ -241,6 +319,19 @@ END gs_insert_score;
 -- INSERT SCORES
 ---------------------------------------------------
 
+EXEC gs_insert_score(SYSDATE, 8, 4, 1, 1, 1);  -- 8h de trabalho, 4 reuniões
+EXEC gs_insert_score(SYSDATE, 6, 3, 2, 2, 2); 
+EXEC gs_insert_score(SYSDATE, 9, 5, 3, 3, 3);  
+EXEC gs_insert_score(SYSDATE, 7, 4, 1, 4, 4);  
+EXEC gs_insert_score(SYSDATE, 6, 2, 2, 5, 5); 
+EXEC gs_insert_score(SYSDATE, 8, 4, 3, 6, 6); 
+EXEC gs_insert_score(SYSDATE, 7, 3, 1, 7, 7); 
+EXEC gs_insert_score(SYSDATE, 6, 3, 2, 8, 8); 
+EXEC gs_insert_score(SYSDATE, 9, 5, 3, 9, 9);  
+EXEC gs_insert_score(SYSDATE, 6, 4, 2, 10, 10);
+
+SELECT * FROM GS_SCORES;
+
 ---------------------------------------------------
 -- PROCEDURE INSERT PREDICTION
 ---------------------------------------------------
@@ -265,6 +356,19 @@ END gs_insert_prediction;
 ---------------------------------------------------
 -- INSERT PREDICTION
 ---------------------------------------------------
+
+EXEC gs_insert_prediction(1.15, 'Risco Moderado', SYSDATE, 1, 1, 2);
+EXEC gs_insert_prediction(0.85, 'Risco Baixo', SYSDATE, 2, 2, 1);
+EXEC gs_insert_prediction(1.35, 'Risco Alto', SYSDATE, 3, 3, 3);
+EXEC gs_insert_prediction(1.50, 'Risco Crítico', SYSDATE, 4, 4, 4);
+EXEC gs_insert_prediction(0.75, 'Risco Baixo', SYSDATE, 5, 5, 1);
+EXEC gs_insert_prediction(1.20, 'Risco Moderado', SYSDATE, 6, 6, 2);
+EXEC gs_insert_prediction(1.10, 'Risco Moderado', SYSDATE, 7, 7, 3);
+EXEC gs_insert_prediction(1.40, 'Risco Alto', SYSDATE, 8, 8, 4);
+EXEC gs_insert_prediction(1.30, 'Risco Alto', SYSDATE, 9, 9, 5);
+EXEC gs_insert_prediction(0.80, 'Risco Baixo', SYSDATE, 10, 10, 1);
+
+SELECT * FROM GS_PREDICTIONS;
 
 
 
