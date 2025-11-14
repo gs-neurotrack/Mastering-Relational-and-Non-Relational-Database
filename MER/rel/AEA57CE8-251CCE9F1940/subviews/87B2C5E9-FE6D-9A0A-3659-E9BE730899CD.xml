@@ -32,11 +32,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5544C6EB-5521-F554-42DF-7D3957013955" otype="Table" vid="500E83D2-6FEF-1936-A4F3-CFB7735C8A1D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1007" y="684" width="213" height="115"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="97F879AA-A1E1-D736-BA31-93CD90AD2C2C" otype="Table" vid="D863B1BD-60E9-DF49-E3BB-D1A0D1BD7613">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="559" y="692" width="245" height="168"/>
+<bounds x="882" y="690" width="213" height="115"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A5117684-B8D6-75C5-C311-07B212D89466" otype="Table" vid="AC238D26-365D-9175-7066-FAACE8C0FBED">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -73,15 +69,6 @@
 <points>
 <point x="1049" y="527"/>
 <point x="1259" y="527"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7097652E-F969-F683-838A-9D0FFBC64DA4" otype="FKIndexAssociation" vid_source="F2DA7988-26F7-5116-FD2D-F4014D7AB93C" vid_target="D863B1BD-60E9-DF49-E3BB-D1A0D1BD7613">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="798" y="620"/>
-<point x="798" y="692"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="89E4F3CA-0A59-7F24-1A58-4D67832155B2" otype="FKIndexAssociation" vid_source="AC238D26-365D-9175-7066-FAACE8C0FBED" vid_target="E2254155-FBB6-78F0-A275-DC248CC08FED">
@@ -125,8 +112,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1028" y="684"/>
-<point x="1028" y="620"/>
+<point x="965" y="690"/>
+<point x="965" y="620"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="BFB336DC-7C40-EB82-F181-5EF95F2F707B" otype="FKIndexAssociation" vid_source="B42E70C1-98E2-2927-EF64-84A131C33D07" vid_target="F2DA7988-26F7-5116-FD2D-F4014D7AB93C">

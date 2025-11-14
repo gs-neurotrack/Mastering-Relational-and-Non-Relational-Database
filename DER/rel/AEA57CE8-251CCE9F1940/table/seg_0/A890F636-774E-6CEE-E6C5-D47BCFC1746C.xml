@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A890F636-774E-6CEE-E6C5-D47BCFC1746C" name="GS_USER">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>3945030A-38FF-431B-3E5E-0B14DA7E5316</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="682E978C-6C1B-0DCF-9A24-6BD95369665F">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>9E02F100-0AA3-252F-46EA-0702B2DBCC0E</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_USER" id="A631D35E-A5EA-57BB-D298-BA2DEBE3C67C">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>369D5B1A-7D55-4891-5BE1-89168CE3A9E3</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_USER" id="D85D324A-87FF-6FD0-060D-17AB00E24589">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>7EB7AB7E-700A-A5E2-7A1A-F9530ED4C5E0</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_USER" id="27BAE8B6-4434-2215-5ACD-C52532B1BBE8">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>8EF84D4B-4AE1-29E3-6792-ABDD010C87DA</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="C6FB4A4F-E3BC-0687-BF02-F8C3494DF32A">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>4B353D25-6DC9-F266-5BF5-B74AEADAAFC4</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GS_ROLE_ID_ROLE" id="4AE96E2A-DF99-B049-A7A9-25430399143F">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>34801BBA-40F3-CDE5-674F-A9BADBDF597C</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5524A1E-12CE-4EC1-283B-7F052A183719" referredColumn="6E9091FC-2F2D-73DC-8BF0-A16281EF4537"/>
+</associations>
+</Column>
+<Column name="GS_LIMITS_ID_LIMITS" id="CBFC59D3-DC6C-A4D2-6AD6-7887DB1122E0">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>D02183B4-1F12-2EB4-A785-7FFF719DEC48</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50DAA7A-CA1C-AB1C-A8A3-8C94D0CA82EE" referredColumn="68F730BE-6978-0D38-3089-AAF5CCAB179E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22086FD4-C1ED-9FC8-FC04-BBADEE574D84" name="GS_USER_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>65A6B873-FC7C-3043-BCBC-2BDE9BBB15D7</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="682E978C-6C1B-0DCF-9A24-6BD95369665F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D26DFD12-BF93-3F5D-F9A7-B64A48AA87E7" name="GS_USER_EMAIL_USER_UN">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>2459AFDD-CC5D-6A61-DB9F-6887C938DA98</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D85D324A-87FF-6FD0-060D-17AB00E24589"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA5BEE4F-A14B-5245-CF9C-223290FA74A1" name="GS_USER__IDX">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EAA92324-7F90-E9F8-BD89-A56F1FFFB2F2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CBFC59D3-DC6C-A4D2-6AD6-7887DB1122E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="795E366F-3955-9278-53B4-C88314C32BD3" name="GS_USER_GS_ROLE_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>B3BBD875-E3A6-EE43-C29D-23BD06433B8B</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AE96E2A-DF99-B049-A7A9-25430399143F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E9C2E6E-756C-504B-AFB6-B6CAB298CD5E" name="GS_USER_GS_LIMITS_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>EAA92324-7F90-E9F8-BD89-A56F1FFFB2F2</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFC59D3-DC6C-A4D2-6AD6-7887DB1122E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C50DAA7A-CA1C-AB1C-A8A3-8C94D0CA82EE" containerWithKeyObject="A890F636-774E-6CEE-E6C5-D47BCFC1746C" localFKIndex="6E9C2E6E-756C-504B-AFB6-B6CAB298CD5E" name="GS_USER_GS_LIMITS_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-11-14 16:16:26 UTC</createdTime>
+<generatorID>EAA92324-7F90-E9F8-BD89-A56F1FFFB2F2</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<referredTableLongName>GS_LIMITS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>56BA7374-39C8-CDDF-A3BE-89B2DE3F4358</referredTableID>
+<keyObject>F7014A53-3B8B-A3D3-D805-FCDA7AD56988</keyObject>
+<referredKeyID>F7014A53-3B8B-A3D3-D805-FCDA7AD56988</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LIMITS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

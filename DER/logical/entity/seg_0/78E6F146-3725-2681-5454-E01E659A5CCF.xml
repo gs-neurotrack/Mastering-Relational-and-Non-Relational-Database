@@ -93,10 +93,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_STATUS_RISK" id="03279718-7627-2336-CE83-FF05B38A6DC1">
+<Attribute name="ID_STATUS_RISK" id="8D245919-ABFB-BDC8-F103-A0919FBD759F">
 <createdBy>Charllot</createdBy>
-<createdTime>2025-11-12 16:54:52 UTC</createdTime>
-<generatorID>85A52E23-0FF1-0AC2-1CC3-5D8B81643607</generatorID>
+<createdTime>2025-11-14 16:16:12 UTC</createdTime>
+<generatorID>048ED79A-1899-79C5-B06E-8C2DFC0EE8CD</generatorID>
 <ownerDesignName>DER</ownerDesignName>
 <engineerTo>
 <item key="AEA57CE8-CDFB-3F3A-796B-251CCE9F1940" value="true"/>
@@ -119,7 +119,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9AB62654-201F-670D-2759-7E122EA1398D</attributeRef>
-<attributeRef>03279718-7627-2336-CE83-FF05B38A6DC1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
