@@ -99,6 +99,7 @@ EXEC gs_insert_role('COORDENADOR');
 EXEC gs_insert_role('ESTAGIARIO');
 EXEC gs_insert_role('DIRETOR');
 EXEC gs_insert_role('CEO');
+EXEC gs_insert_role('COLABORADOR');
 
 SELECT * FROM GS_ROLE;
 
