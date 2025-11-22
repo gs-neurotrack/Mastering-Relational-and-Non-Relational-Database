@@ -122,7 +122,8 @@ END gs_insert_limits;
 ---------------------------------------------------
 -- INSERT LIMITS
 ---------------------------------------------------
-EXEC gs_insert_limits(8, 3);  -- 8 horas, 3 reuniões
+-- 8 horas, 3 reuniões
+EXEC gs_insert_limits(8, 3);  
 EXEC gs_insert_limits(6, 2);  
 EXEC gs_insert_limits(9, 4);  
 EXEC gs_insert_limits(7, 3); 
@@ -276,8 +277,8 @@ END gs_insert_score;
 ---------------------------------------------------
 -- INSERT SCORES
 ---------------------------------------------------
-
-EXEC gs_insert_score(SYSDATE, 8, 4, 1, 1, 1);  -- 8h de trabalho, 4 reuniões
+-- 8h de trabalho, 4 reuniões
+EXEC gs_insert_score(SYSDATE, 8, 4, 1, 1, 1);  
 EXEC gs_insert_score(SYSDATE, 6, 3, 2, 2, 2); 
 EXEC gs_insert_score(SYSDATE, 9, 5, 3, 3, 3);  
 EXEC gs_insert_score(SYSDATE, 7, 4, 1, 4, 4);  
